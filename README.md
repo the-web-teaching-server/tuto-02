@@ -6,7 +6,8 @@ create a Todo-list application. The optional parts are aboutmake your applicatio
 
 ## The counter
 
-1. Open [Ellie the online editor](https://ellie-app.com). The counter
+1. Open [Ellie the online editor](https://ellie-app.com) (`Ctrl+click`
+   to open in a new tab). The counter
    programm is already loaded.
 2. Add a button "Reset" which resets the counter to 0. You may need to
    add new message ;) .
@@ -14,7 +15,8 @@ create a Todo-list application. The optional parts are aboutmake your applicatio
 
 ## Todo list
 
-1. Open [the Todo-list skeleton](https://ellie-app.com/5Zg6cdDp3BJa1).
+1. Open [the Todo-list skeleton](https://ellie-app.com/5Zg6cdDp3BJa1)
+   (`Ctrl+click` to open in a new tab).
 1. Replace the `view` function in order to display  a list of
     three task  to do (e.g. "Learn Haskell", "Read H2G2",
     "Go to Tatooine") using `ul` and `li`. You can ignore the
