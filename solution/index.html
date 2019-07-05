@@ -1,0 +1,65 @@
+<html>
+<head>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top : 30vh;
+      font-family: Helvetica;
+    }
+
+
+    #todo-form input[type=text] {
+      box-sizing: content-box;
+      padding: 20px;
+    }
+
+    #todo-form input[type=submit] {
+        box-sizing: content-box;
+        padding: 20px;
+      box-sizing: content-box;
+        background-color: green;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        font-weight: bold;
+
+    }
+
+    .tasks {
+        list-style-type: none;
+        padding: 7px;
+      border: 1px solid grey;
+      border-radius : 3px;
+    }
+
+    .tasks li {
+        padding: 15px;
+    }
+
+    .tasks .done {
+      text-decoration: line-through;
+      color: #AAA;
+    }
+
+    .tasks .done-button {
+      margin-left: 10px;
+      border: none;
+      border-left: 3px solid #ffd500;
+      background-color : #fffdee;
+      color :#ffd500;
+      padding: 5px;
+    }
+
+    /* you can style your program here */
+  </style>
+</head>
+<body>
+  <main></main>
+  <script>
+    var app = Elm.Main.init({ node: document.querySelector('main') })
+    // you can use ports and stuff here
+  </script>
+</body>
+</html>
