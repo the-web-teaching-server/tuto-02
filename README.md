@@ -133,7 +133,7 @@ Here is the schema to get a text entered by the user:
 1. At that point, check that all is working correctly with the debugger: the
     `enteredText` field should be updated each time you enter something in
     the input field!
-1. Create a `TaskSubmitted` and trigger by adding a `onSubmit TaskSubmitted`
+1. Create a `TaskSubmitted` and trigger it by adding a `onSubmit TaskSubmitted`
    in the attributes of the `form`. Deal with this new message in the `update`
    function:
    * add a task in the list of tasks. The syntax to add an element `x` to a
