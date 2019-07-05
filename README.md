@@ -157,7 +157,7 @@ in the module `Html.Attributes`, you can import them with
 `import Html.Attributes exposing (id, class)`.
 
 Here is a rudimentary example:
-!(style example)[example-todo.png]
+![style example](example-todo.png)
 
 
 ## Optional improvements
