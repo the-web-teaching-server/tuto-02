@@ -4,7 +4,7 @@ This tutorials aims to practice Elm! In the first part, you
 will add a small functionnality to the counter example.Then, you will
 create a Todo-list application.
 
-You will probably need to look at [the slides of the lecture](https://slides.com/sebbes/the-web-teaching-server-elm-intro/) 
+You will probably need to look at [the slides of the lecture](https://slides.com/sebbes/the-web-teaching-server-elm-intro/)
 (`Ctrl+Click` to open in a new tab).
 
 ## The counter
@@ -29,7 +29,7 @@ You will probably need to look at [the slides of the lecture](https://slides.com
 1. Redefine the `Model` type with:
     ```elm
     type alias Model =
-        { tasks = List String }
+        { tasks : List String }
     ```
     and redefine the variable `initialModel : Model` which contains
     the three tasks you have listed above.
@@ -55,7 +55,7 @@ purpose, we will need to define new types to store this information.
     and modify the model to be:
     ```elm
     type alias Model =
-        { tasks = List Task }
+        { tasks : List Task }
     ```
     Perform all the modifications needed to make your code compile! You may
     need to change `viewTask : String -> Html Msg` to
