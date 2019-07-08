@@ -2,7 +2,10 @@
 
 This tutorials aims to practice Elm! In the first part, you
 will add a small functionnality to the counter example.Then, you will
-create a Todo-list application. The optional parts are aboutmake your application support several languages!
+create a Todo-list application.
+
+You will probably need to look at [the slides of the lecture](https://slides.com/sebbes/the-web-teaching-server-elm-intro/) 
+(`Ctrl+Click` to open in a new tab).
 
 ## The counter
 
@@ -20,22 +23,24 @@ create a Todo-list application. The optional parts are aboutmake your applicatio
 1. Replace the `view` function in order to display  a list of
     three task  to do (e.g. "Learn Haskell", "Read H2G2",
     "Go to Tatooine") using `ul` and `li`. You can ignore the
-    `model` for the moment.
-1. Add the text "Tasks to do:" at the top of the list. You may need
+    `model` argument for the moment.
+1. Add the text "3 tasks to do:" at the top of the list. You may need
    to enclose the list in a `div`.
 1. Redefine the `Model` type with:
     ```elm
     type alias Model =
         { tasks = List String }
     ```
-    and define a variable `init : Model` which contains
+    and redefine the variable `initialModel : Model` which contains
     the three tasks you have listed above.
 1. Create a function `viewTask : String -> Html msg` which
    displays a thing to do. It should return a `li`.
 1. Use `List.map` and the `model` argument to display the
    tasks to do.
+1. Compute the number of elements in the list `tasks` with `List.length : List a -> Int`
+   to display "3 tasks to do:" without hardcode the "3".
 1. Inspect the HTML code produced by Elm ("right click > inspect element"
-    or "F12") to see if it match what you think.
+    or "F12") to see if it matches what you think.
 
 ## Add status to the tasks
 
@@ -191,7 +196,7 @@ Here is a rudimentary example:
       the type of `filterBy`.
 1. Add a status "Urgent" and corresponding controls to act on it.
 1. Use [these slides](https://slides.com/sebbes/pratical-intro-to-algebraic-data-types/live?context=editing#/18)
-   to make your application support multiple languages:
+   to make your application support multiple languages.
 
 
 
