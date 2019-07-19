@@ -21,7 +21,7 @@ You will probably need to look at [the slides of the lecture](https://slides.com
 1. Open [the Todo-list skeleton](https://ellie-app.com/5Zg6cdDp3BJa1)
    (`Ctrl+click` to open in a new tab).
 1. Replace the `view` function in order to display  a list of
-    three task  to do (e.g. "Learn Haskell", "Read H2G2",
+    three tasks  to do (e.g. "Learn Haskell", "Read H2G2",
     "Go to Tatooine") using `ul` and `li`. You can ignore the
     `model` argument for the moment.
 1. Add the text "3 tasks to do:" at the top of the list. You may need
@@ -199,8 +199,9 @@ Here is a rudimentary example:
    to make your application support multiple languages.
 
 
+# Solution
 
-Solution: https://ellie-app.com/5Znn3Vs3rsTa1
+You can see a solution here: https://ellie-app.com/5Znn3Vs3rsTa1
 
 
 
