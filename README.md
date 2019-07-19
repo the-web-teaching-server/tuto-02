@@ -202,7 +202,7 @@ Here is a rudimentary example:
 
 # Solution
 
-You can see a solution here: https://ellie-app.com/67WYxX2vHBxa1
+You can see a solution here: https://ellie-app.com/67X6XLv9Lr9a1
 
 
 
